@@ -1,0 +1,33 @@
+body{
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Todo-container{
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius:20px;
+}
+
+/* .Todo-header{
+    color: red;
+} */
+
+.Todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Todo-button{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
